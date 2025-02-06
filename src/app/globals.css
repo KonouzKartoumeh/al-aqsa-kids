@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+@keyframes dash {
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+
+.animate-dash {
+  animation: dash 20s linear infinite;
+}
