@@ -27,8 +27,8 @@ export default function Navbar() {
             <NavLink href="/" icon="🏠">Home</NavLink>
             <NavLink href="/learn" icon="📚">Learn</NavLink>
             <NavLink href="/qa" icon="❓">Quiz</NavLink>
-            <NavLink href="/rewards" icon="🌟">Rewards</NavLink>
-            <NavLink href="/profile" icon="👤">Profile</NavLink>
+            {/* <NavLink href="/rewards" icon="🌟">Rewards</NavLink>
+            <NavLink href="/profile" icon="👤">Profile</NavLink> */}
           </div>
 
           {/* Mobile Menu Button */}

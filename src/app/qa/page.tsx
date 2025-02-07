@@ -36,7 +36,7 @@ export default function AlAqsaBasics() {
       options: ["The Farthest", "The Highest", "The Blessed", "The Holy"],
       correctAnswer: "The Farthest",
       explanation: "Al-Aqsa means 'the farthest' in Arabic. It was named this because it was the farthest mosque from Makkah that Muslims would travel to for worship.",
-      image: "/al-aqsa-night.jpg",
+      image: "/images/al-quds-map.jpg",
       funFact: "Did you know? Al-Aqsa Mosque is the third-holiest site in Islam! 🌟"
     },
     {
@@ -45,10 +45,9 @@ export default function AlAqsaBasics() {
       options: ["Jerusalem", "Makkah", "Madinah", "Damascus"],
       correctAnswer: "Jerusalem",
       explanation: "Al-Aqsa Mosque is located in Jerusalem (Al-Quds), a city that is sacred to Muslims, Christians, and Jews.",
-      image: "/jerusalem-view.jpg",
+      image: "/images/al-quds-map.jpg",
       funFact: "Jerusalem is one of the oldest cities in the world! 🏰"
     },
-    // Add more questions here
   ];
 
   // Safe handling of answer selection

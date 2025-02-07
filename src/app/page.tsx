@@ -10,7 +10,7 @@ export default function Home() {
         
         <div className="relative mb-8">
           <Image
-            src="/al-aqsa-mosque.jpg"
+            src="/images/al-quds-map.jpg"
             alt="Al-Aqsa Mosque"
             width={672}
             height={448}
