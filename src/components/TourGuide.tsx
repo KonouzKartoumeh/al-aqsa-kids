@@ -1,6 +1,15 @@
 import { motion, AnimatePresence } from "framer-motion";
+import Image from 'next/image';
 
-export function TourGuide({ isVisible, message, position = "bottom-right" }) {
+export function TourGuide({ 
+  isVisible, 
+  message, 
+  position = "bottom-right" 
+}: {
+  isVisible: boolean;
+  message: string;
+  position?: "bottom-right" | string;
+}) {
   return (
     <AnimatePresence>
       {isVisible && (
@@ -25,7 +34,13 @@ export function TourGuide({ isVisible, message, position = "bottom-right" }) {
               transition={{ repeat: Infinity, duration: 1.5 }}
               className="w-24 h-24"
             >
-             
+              <Image
+                src="/tour-guide.png"
+                width={96}
+                height={96}
+                alt="Tour Guide"
+                className="w-full h-full object-contain"
+              />
             </motion.div>
           </div>
         </motion.div>

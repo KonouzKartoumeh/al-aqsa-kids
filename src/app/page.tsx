@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-sky-100 to-white p-8">
@@ -7,7 +9,14 @@ export default function Home() {
         </h1>
         
         <div className="relative mb-8">
-          
+          <Image
+            src="/al-aqsa-mosque.jpg"
+            alt="Al-Aqsa Mosque"
+            width={672}
+            height={448}
+            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
+            priority
+          />
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow-md mb-8">
