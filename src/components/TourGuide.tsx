@@ -25,11 +25,7 @@ export function TourGuide({ isVisible, message, position = "bottom-right" }) {
               transition={{ repeat: Infinity, duration: 1.5 }}
               className="w-24 h-24"
             >
-              <img
-                src="/tour-guide.png"
-                alt="Tour Guide"
-                className="w-full h-full object-contain"
-              />
+             
             </motion.div>
           </div>
         </motion.div>

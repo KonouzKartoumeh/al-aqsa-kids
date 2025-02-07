@@ -7,11 +7,7 @@ export default function Home() {
         </h1>
         
         <div className="relative mb-8">
-          <img
-            src="/al-aqsa-mosque.jpg"
-            alt="Al-Aqsa Mosque"
-            className="rounded-lg shadow-lg w-full max-w-2xl mx-auto"
-          />
+          
         </div>
 
         <div className="bg-white p-6 rounded-xl shadow-md mb-8">
